@@ -1,0 +1,202 @@
+repo_name: 2lambda123/mbbefd
+report_id: c3a768340a085d2f77330fe44fb4b602
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:20:05+00:00'
+requested_by: dutangc
+provider: github
+branch: master
+detected_tools_count: 16
+tools:
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/2lambda123/mbbefd
+  detection_source: Repo Metadata
+- name: Markdown
+  description: Text-to-HTML conversion tool/syntax for web writers, by John Gruber
+  website_url: http://daringfireball.net/projects/markdown/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1147/markdown.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2020-11-08 20:38:31.000000000 Z
+- name: R Language
+  description: A language and environment for statistical computing and graphics
+  website_url: http://www.r-project.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source_url: https://github.com/2lambda123/mbbefd
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/mbbefd
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Markus Gesmann
+  last_updated_on: 2016-02-19 21:13:25.000000000 Z
+- name: MASS
+  description: Support Functions and Datasets for Venables and Ripley's MASS
+  package_url: https://cran.r-project.org/MASS
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Giorgio Alfredo Spedicato
+  last_updated_on: 2018-08-11 14:42:34.000000000 Z
+- name: Rcpp
+  description: Seamless R and C++ Integration
+  package_url: https://cran.r-project.org/Rcpp
+  version: 0.12.18
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2021-06-08 07:46:15.000000000 Z
+- name: actuar
+  description: Actuarial Functions and Heavy Tailed Distributions
+  package_url: https://cran.r-project.org/actuar
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Giorgio Alfredo Spedicato
+  last_updated_on: 2018-08-11 14:42:34.000000000 Z
+- name: alabama
+  description: Constrained Nonlinear Optimization
+  package_url: https://cran.r-project.org/alabama
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2021-06-08 07:46:15.000000000 Z
+- name: fitdistrplus
+  description: |-
+    Help to Fit of a Parametric Distribution to Non-Censored or
+    Censored Data
+  package_url: https://cran.r-project.org/fitdistrplus
+  version: '1.1'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2021-06-08 07:46:15.000000000 Z
+- name: gsl
+  description: Wrapper for the Gnu Scientific Library
+  package_url: https://cran.r-project.org/gsl
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Giorgio Alfredo Spedicato
+  last_updated_on: 2015-02-28 23:19:06.000000000 Z
+- name: knitr
+  description: A General-Purpose Package for Dynamic Report Generation in R
+  package_url: https://cran.r-project.org/knitr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2020-11-08 20:38:31.000000000 Z
+- name: lattice
+  description: Trellis Graphics for R
+  package_url: https://cran.r-project.org/lattice
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2020-11-08 20:38:31.000000000 Z
+- name: pander
+  description: An R 'Pandoc' Writer
+  package_url: https://cran.r-project.org/pander
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2020-11-08 20:38:31.000000000 Z
+- name: rmarkdown
+  description: Dynamic Documents for R
+  package_url: https://cran.r-project.org/rmarkdown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2020-11-08 20:38:31.000000000 Z
+- name: testthat
+  description: Unit Testing for R
+  package_url: https://cran.r-project.org/testthat
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/mbbefd/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Christophe DUTANG
+  last_updated_on: 2020-11-08 20:38:31.000000000 Z
